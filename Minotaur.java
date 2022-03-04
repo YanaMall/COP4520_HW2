@@ -34,6 +34,7 @@ public class Minotaur
 				if(cupcake == 1)
 				{
 					cupcake = 0;
+					guests[guest] = 1;
 					count++;
 					System.out.println("%d number of guests have been in." + count);
 					//A cupcake was there when they entered and eat it, set cupcake to 0 and increase count
